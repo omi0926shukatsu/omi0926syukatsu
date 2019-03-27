@@ -1,0 +1,89 @@
+
+/* フォント */
+.title{
+font-family: 'Fredericka the Great', cursive;
+font-size:75px;
+color:#ffffff;
+font-weight:nomal;
+}
+.subtitle{
+font-family: 'Fredericka the Great', cursive;
+font-size:33px;
+color:#ffffff;
+font-weight:nomal;
+}
+.index{
+font-family: 'Fredericka the Great', cursive;
+font-size:40px;
+color:#e61259;
+line-height:110%;
+font-weight:nomal;
+}
+.text{
+font-family: "ヒラギノ明朝 ProN W3";
+font-size:15px;
+color:#330000;
+line-height:130%;
+font-weight:nomal;
+}
+
+/* フォームデザイン */
+input[type=text] {
+width: 300px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none; 
+}
+input[type],textarea{
+background-image: none;
+background-color: #e61259;
+font-family:"ヒラギノ明朝 ProN W3";
+font-size:15px;
+color : #ffffff;
+border: none;
+border-radius: 3;
+width: auto;
+padding: 5px;
+margin: 5px;
+}
+.select select{
+background-image: none;
+background-color: #e61259;
+font-family:"ヒラギノ明朝 ProN W3";
+font-size:15px;
+color : #ffffff;
+border: none;
+border-radius: 3;
+width: auto;
+padding: 5px;
+margin: 5px;
+}
+input[type=text]{width: 100px;}
+input[type=submit]{color: #ffffff;}
+
+/* レイアウト設定 */
+body
+
+#body{
+margin:0 auto;
+width: 100%;
+max-width:650px
+}
+#photo{
+margin:0;
+width:100%;
+min-width:650px
+min-height:400px;
+background-image: url("http://tt-956.99sv-coco.com/top.jpg");
+background-size:700px 450px;
+background-repeat:no-repeat;
+text-align:left;
+padding:45% 20px 40px 20px;
+line-height:160%;
+}
+#contants{
+margin:0;
+width:100%;
+background-color: #f5deb3;
+padding:40px 20px 40px 20px;
+}
